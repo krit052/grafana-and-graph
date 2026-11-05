@@ -37,7 +37,7 @@ Cloud1 (eth1) ── Switch1 ── R1 f0/0 ─── R1 f1/1 ── ipterm-3
 | R1 | Loopback0 | 1.1.1.1 |
 | Ubuntu | ens33 | 192.168.127.129/24 |
 
-![GNS3 topology](images/gns3-topology.png)
+![GNS3 topology](Lab topology (GNS3).png)
 
 Cloud1 uses **eth1 of the GNS3 VM**, which must be connected to **VMware NAT (VMnet8)**, the same network as the Ubuntu VM.
 
@@ -191,11 +191,11 @@ ping 192.168.127.129 repeat 100000 size 1400
 
 `rate(ifInOctets{instance="192.168.127.133"}[1m]) * 8`
 
-![Prometheus PromQL](images/prometheus-promql.png)
+![Prometheus PromQL](images/prometheus.png)
 
 ### Grafana graph
 
-![Grafana graph](images/grafana-graph.png)
+![Grafana graph]Grafana.png)
 
 ## Troubleshooting
 

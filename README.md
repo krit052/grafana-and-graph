@@ -197,10 +197,6 @@ ping 192.168.127.129 repeat 100000 size 1400
 
 ![Grafana graph](images/grafana-graph.png)
 
-### curl SNMP Exporter
-
-![curl SNMP Exporter](images/curl-snmp-exporter.png)
-
 ## Troubleshooting
 
 | Problem | Check |
